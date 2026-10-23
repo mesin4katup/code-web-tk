@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TK Bustanul Athfal 'Aisyiyah Pacitan</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" href="images/logo.png">
+<!-- Status Intro Logo: dicek lebih awal agar tidak ada kedipan. Paksa tampil lagi: tambahkan ?intro=1 di alamat -->
+<script>
+(function(){
+  var r=document.documentElement,seen=false,force=/[?&]intro=1(&|$)/.test(location.search);
+  try{seen=sessionStorage.getItem('baIntroSeen')==='1'}catch(e){}
+  if(force||!seen)r.classList.add('intro-active');
+})();
+</script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Sprite Ikon SVG (gaya Lucide) - dipakai lewat <svg class="i"><use href="#i-nama"/></svg> -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs>
+<symbol id="i-menu" viewBox="0 0 24 24"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></symbol>
+<symbol id="i-x" viewBox="0 0 24 24"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></symbol>
+<symbol id="i-puzzle" viewBox="0 0 24 24"><path d="M15.39 4.39a1 1 0 0 0 1.68-.474 2.5 2.5 0 1 1 3.014 3.015 1 1 0 0 0-.474 1.68l1.683 1.682a2.414 2.414 0 0 1 0 3.414L19.61 15.39a1 1 0 0 1-1.68-.474 2.5 2.5 0 1 0-3.014 3.015 1 1 0 0 1 .474 1.68l-1.683 1.682a2.414 2.414 0 0 1-3.414 0L8.61 19.61a1 1 0 0 0-1.68.474 2.5 2.5 0 1 1-3.014-3.015 1 1 0 0 0 .474-1.68l-1.683-1.682a2.414 2.414 0 0 1 0-3.414L4.39 8.61a1 1 0 0 1 1.68.474 2.5 2.5 0 1 0 3.014-3.015 1 1 0 0 1-.474-1.68l1.683-1.682a2.414 2.414 0 0 1 3.414 0z"/></symbol>
+<symbol id="i-mosque" viewBox="0 0 24 24"><path d="M12 2v2"/><path d="M7 14a5 5 0 0 1 10 0"/><path d="M5 21v-7h14v7"/><path d="M10 21v-3a2 2 0 0 1 4 0v3"/><path d="M2 21V10l1.5-3L5 10v4"/><path d="M22 21V10l-1.5-3L19 10v4"/><path d="M2 21h20"/></symbol>
+<symbol id="i-palette" viewBox="0 0 24 24"><circle cx="13.5" cy="6.5" r=".5" fill="currentColor"/><circle cx="17.5" cy="10.5" r=".5" fill="currentColor"/><circle cx="8.5" cy="7.5" r=".5" fill="currentColor"/><circle cx="6.5" cy="12.5" r=".5" fill="currentColor"/><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z"/></symbol>
+<symbol id="i-heart" viewBox="0 0 24 24"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></symbol>
+<symbol id="i-book" viewBox="0 0 24 24"><path d="M12 7v14"/><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/></symbol>
+<symbol id="i-music" viewBox="0 0 24 24"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></symbol>
+<symbol id="i-message" viewBox="0 0 24 24"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></symbol>
+<symbol id="i-shapes" viewBox="0 0 24 24"><path d="M8.3 10a.7.7 0 0 1-.626-1.079L11.4 3a.7.7 0 0 1 1.198-.043L16.3 8.9a.7.7 0 0 1-.572 1.1Z"/><rect x="3" y="14" width="7" height="7" rx="1"/><circle cx="17.5" cy="17.5" r="3.5"/></symbol>
+<symbol id="i-tree" viewBox="0 0 24 24"><path d="m17 14 3 3.3a1 1 0 0 1-.7 1.7H4.7a1 1 0 0 1-.7-1.7L7 14h-.3a1 1 0 0 1-.7-1.7L9 9h-.2A1 1 0 0 1 8 7.3L12 3l4 4.3a1 1 0 0 1-.8 1.7H15l3 3.3a1 1 0 0 1-.7 1.7H17Z"/><path d="M12 22v-3"/></symbol>
+<symbol id="i-steth" viewBox="0 0 24 24"><path d="M11 2v2"/><path d="M5 2v2"/><path d="M5 3H4a2 2 0 0 0-2 2v4a6 6 0 0 0 12 0V5a2 2 0 0 0-2-2h-1"/><path d="M8 15a6 6 0 0 0 12 0v-3"/><circle cx="20" cy="10" r="2"/></symbol>
+<symbol id="i-grad" viewBox="0 0 24 24"><path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"/><path d="M22 10v6"/><path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"/></symbol>
+<symbol id="i-mic" viewBox="0 0 24 24"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" x2="12" y1="19" y2="22"/></symbol>
+<symbol id="i-bus" viewBox="0 0 24 24"><path d="M8 6v6"/><path d="M15 6v6"/><path d="M2 12h19.6"/><path d="M18 18h3s.5-1.7.8-2.8c.1-.4.2-.8.2-1.2 0-.4-.1-.8-.2-1.2l-1.4-5C20.1 6.8 19.1 6 18 6H4a2 2 0 0 0-2 2v10h3"/><circle cx="7" cy="18" r="2"/><path d="M9 18h5"/><circle cx="16" cy="18" r="2"/></symbol>
+<symbol id="i-trophy" viewBox="0 0 24 24"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"/></symbol>
+<symbol id="i-image" viewBox="0 0 24 24"><rect width="18" height="18" x="3" y="3" rx="2" ry="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"/></symbol>
+<symbol id="i-school" viewBox="0 0 24 24"><path d="M14 21v-3a2 2 0 0 0-4 0v3"/><path d="M18 5v16"/><path d="m4 6 7.106-3.79a2 2 0 0 1 1.788 0L20 6"/><path d="m6 11-3.52 2.147a1 1 0 0 0-.48.854V19a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-5a1 1 0 0 0-.48-.853L18 11"/><path d="M6 5v16"/><circle cx="12" cy="9" r="2"/></symbol>
+<symbol id="i-pin" viewBox="0 0 24 24"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></symbol>
+<symbol id="i-phone" viewBox="0 0 24 24"><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"/></symbol>
+<symbol id="i-compass" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="m16.24 7.76-1.804 5.411a2 2 0 0 1-1.265 1.265L7.76 16.24l1.804-5.411a2 2 0 0 1 1.265-1.265z"/></symbol>
+</defs></svg>
+
+<!-- Opening Screen Logo -->
+<div class="intro" id="intro" aria-label="Memuat TK Bustanul Athfal 'Aisyiyah Pacitan">
+  <div class="intro-inner">
+    <img class="intro-logo" id="introLogo" src="images/logo.png" alt="Logo TK Bustanul Athfal 'Aisyiyah Pacitan">
+    <span class="intro-line"></span>
+    <p class="intro-name">TK Bustanul Athfal 'Aisyiyah Pacitan</p>
+    <p class="intro-sub">Pendidikan Anak Usia Dini</p>
+  </div>
+  <button type="button" class="intro-skip" id="introSkip">Lewati</button>
+</div>
+<!-- /Opening Screen Logo -->
+
+
+
+<header class="header"><div class="wrap nav">
+  <a href="#home" class="brand">
+    <!-- Ganti dengan logo asli: <img src="images/logo.png" alt="Logo"> -->
+    <img src="images/logo.png" alt="Logo" class="logo" onerror="this.classList.add('logo-missing')">
+    <span><small>Pendidikan Anak Usia Dini</small><strong>TK BUSTANUL ATHFAL 'AISYIYAH PACITAN</strong></span>
+  </a>
+  <button class="burger" id="burger" aria-label="Buka menu" aria-expanded="false"><svg class="i i-menu" aria-hidden="true" focusable="false"><use href="#i-menu"/></svg><svg class="i i-x" aria-hidden="true" focusable="false"><use href="#i-x"/></svg></button>
+  <nav id="menu" class="menu">
+    <a href="#home">Home</a>
+    <div class="has-sub"><a href="#profil">Profil</a><div class="sub">
+      <a href="#visi">Visi dan Misi</a><a href="#sasaran">Sasaran Kualitas</a><a href="#guru">Guru dan Fasilitas</a></div></div>
+    <div class="has-sub"><a href="#program">Program</a><div class="sub">
+      <a href="#program">Madrasah Unggul</a><a href="#agenda">Agenda Rutin</a><a href="#prestasi">Prestasi</a><a href="#akademik">Informasi Akademik</a></div></div>
+    <div class="has-sub"><a href="#ppdb">PPDB</a><div class="sub">
+      <a href="#ppdb">Persyaratan</a><a href="#form">Formulir</a></div></div>
+    <a href="#galeri">Galeri</a><a href="#kontak">Kontak</a>
+    <a href="#ppdb" class="btn btn-gold">DAFTAR SEKARANG</a>
+  </nav>
+</div></header>
+
+                        <!--HALAMAN DEPAN-->
+<main>
+<section id="home" class="hero">
+  <div class="hero-slides" aria-hidden="true">
+    <div class="hs active" style="background-image:url('images/slide1.jpeg')"></div>
+    <div class="hs" style="background-image:url('images/slide2.jpeg')"></div>
+    <div class="hs" style="background-image:url('images/slide3.jpeg')"></div>
+    <div class="hs" style="background-image:url('images/slide4.jpeg')"></div>
+  </div>
+  <div class="wrap hero-text"
+    <p class="crumb">Selamat datang </p>
+    <h1>Membentuk Generasi Cerdas, Ceria, Mandiri, Kreatif dan Akhlakul Karimah</h1>
+    <p class="lead-l">Pendidikan anak usia dini yang menumbuhkan generasi sehat, mandiri, cerdas, kreatif, dan berakhlakul karimah melalui belajar sambil bermain.</p>
+    <div class="actions"><a href="#program" class="btn btn-ghost">Pelajari Program Kami</a><a href="#ppdb" class="btn btn-gold">Daftar PPDB Online</a></div>
+  </div>
+</section>
+
+ <!--BAGIAN PROFIL (SAMBUTAN & SEJARAH)-->
+<section id="profil" class="sec">
+  <div class="wrap two top">
+    <div><h2 class="h">Sambutan Kepala Sekolah</h2><p class="ph">[Placeholder] Nama kepala sekolah: [Nama]. Tulis sambutan di sini.</p></div>
+    <div><h2 class="h">Sejarah</h2>
+      <p>Gerakan Bustanul Athfal bermula dari ‘Aisyiyah, organisasi perempuan Muhammadiyah yang berdiri pada tahun 1917. Dua tahun kemudian, pada 1919, ‘Aisyiyah membuka pendidikan anak usia dini yang saat itu bernama Frobel, yang dikenal sebagai taman kanak-kanak pertama yang didirikan bangsa Indonesia. Pada 1973, nama lembaga ini diseragamkan menjadi TK ‘Aisyiyah Bustanul Athfal.</p>
+      <p>TK Bustanul Athfal ‘Aisyiyah Pacitan adalah bagian dari gerakan tersebut dan berada di bawah naungan Pimpinan Daerah ‘Aisyiyah Kabupaten Pacitan. Sekolah ini berdiri pada 13 Maret 1973, dirintis oleh [nama pendiri / pengurus awal]. Kini kegiatan belajar berlangsung di dua gedung, yaitu di Jl. H. Samanhudi No.05 dan Jl. K.H. Dimyati No.19, Pacitan.</p>
+      <p>Sampai hari ini, sekolah terus menghadirkan pembelajaran yang kreatif dan menyenangkan dengan landasan nilai Islam melalui Program Madrasah Unggul, yaitu Unggul Religius, Unggul Kreatifitas, dan Unggul Genius. Dengan dukungan para pendidik dan orang tua, TK Bustanul Athfal ‘Aisyiyah Pacitan berkomitmen mewujudkan generasi yang berakhlak mulia, sehat, mandiri, cerdas, dan kreatif.</p>
+    </div>
+  </div>
+</section>
+
+
+                        <!--BAGIAN VISI DAN MISI-->
+<section id="visi" class="sec alt"><div class="wrap two top">
+  <div><h2 class="h">Visi</h2><p class="big">Mewujudkan generasi yang berakhlak mulia, sehat, mandiri, cerdas dan kreatif.</p></div>
+  <div><h2 class="h">Misi</h2><ul class="list">
+    <li>Membiasakan perilaku islami dalam kehidupan sehari-hari</li><li>Membiasakan hidup sehat</li>
+    <li>Mengembangkan kemandirian anak melalui kegiatan life skill</li>
+    <li>Melatih dan mengembangkan kecerdasan anak dalam berpikir kritis</li>
+    <li>Menerapkan pembelajaran berbasis IT</li><li>Menyelenggarakan pembelajaran kreatif dan menyenangkan</li></ul></div>
+</div></section>
+
+
+                        <!--BAGIAN SASARAN KUALITAS-->
+<section id="sasaran" class="sec"><div class="wrap">
+  <h2 class="h">Sasaran Kualitas</h2>
+  <ul class="list cols"><li>Siap bersekolah</li><li>Mengenal Allah dan Rasul-Nya</li><li>Pembiasaan akhlak islami</li>
+  <li>Mengenal bukti terhadap orang tua</li><li>Terbiasa dengan ibadah dan doa sehari-hari</li>
+  <li>Mengenal dasar-dasar literasi dan numerasi</li><li>Tuntas perkembangan anak sesuai usianya</li><li>Terbiasa dengan kalimat thoyibah</li></ul>
+  <h2 class="h gap">Keunggulan Sekolah</h2>
+  <div class="grid4">
+    <div class="card blue"><div class="ico"><svg class="i" aria-hidden="true" focusable="false"><use href="#i-puzzle"/></svg></div><h3>Belajar Melalui Bermain</h3><p>Pembelajaran kreatif dan menyenangkan.</p></div>
+    <div class="card mint"><div class="ico"><svg class="i" aria-hidden="true" focusable="false"><use href="#i-mosque"/></svg></div><h3>Nilai Agama &amp; Akhlak Mulia</h3><p>Pembiasaan perilaku islami setiap hari.</p></div>
+    <div class="card yellow"><div class="ico"><svg class="i" aria-hidden="true" focusable="false"><use href="#i-palette"/></svg></div><h3>Kreativitas &amp; Kemandirian</h3><p>Life skill dan penyaluran minat bakat.</p></div>
+    <div class="card pink"><div class="ico"><svg class="i" aria-hidden="true" focusable="false"><use href="#i-heart"/></svg></div><h3>Pendidik Ramah &amp; Peduli</h3><p>Memantau perkembangan setiap anak.</p></div>
+  </div>
+</div></section>
+
+
+                    <!--BAGIAN TENTANG GURU-->
+<section id="guru" class="sec alt"><div class="wrap">
+  <h2 class="h">Guru dan Tenaga Pendidik</h2>
+  <ul class="names"><li>[Nama Guru 1]</li><li>[Nama Guru 2]</li><li>[Nama Guru 3]</li><li>[Nama Guru 4]</li><li>[Nama Guru 5]</li><li>[Nama Guru 6]</li></ul>
+  <h2 class="h gap">Fasilitas</h2>
+  <p class="ph">Isi daftar fasilitas sekolah, misalnya ruang kelas, area bermain, dsb.</p>
+</div></section>
+
+
+
+                <!--BAGIAN PROGRAM KEUNGGULAN SEKILAHNYA-->
+<section id="program" class="sec"><div class="wrap">
+  <h2 class="h">Program Pendidikan</h2>
+  <p>Program Madrasah Unggul: <b>Unggul Religius</b> (pendalaman keislaman), <b>Unggul Kreatifitas</b> (penyaluran minat bakat), dan <b>Unggul Genius</b> (pendalaman sains dan praktik).</p>
+  <div class="grid3">
+    <div class="card mint"><div class="ico"><svg class="i" aria-hidden="true" focusable="false"><use href="#i-book"/></svg></div><h3>FOTO ANAK TK TENTANG AGAMA &amp; Pembiasaan Akhlak</h3><p>Mengaji, hafalan, ibadah, dan doa sehari-hari.</p></div>
+    <div class="card pink"><div class="ico"><svg class="i" aria-hidden="true" focusable="false"><use href="#i-music"/></svg></div><h3>FOTO TENTANG ANAK BERMAIN MUSIK &amp; Musik</h3><p>Pentas seni dan pameran karya anak.</p></div>
+    <div class="card blue"><div class="ico"><svg class="i" aria-hidden="true" focusable="false"><use href="#i-message"/></svg></div><h3>FOTO ANAK BELAJAR &amp; Komunikasi</h3><p>Pengenalan dasar literasi dan numerasi.</p></div>
+    <div class="card yellow"><div class="ico"><svg class="i" aria-hidden="true" focusable="false"><use href="#i-shapes"/></svg></div><h3>OUTBOND MUNGIL &amp; Permainan Edukatif</h3><p>Kegiatan fisik dan permainan yang mendidik.</p></div>
+    <div class="card mint"><div class="ico"><svg class="i" aria-hidden="true" focusable="false"><use href="#i-tree"/></svg></div><h3>Eksplorasi Lingkungan &amp; Alam</h3><p>Outing class sesuai tema/topik.</p></div>
+    <div class="card pink"><div class="ico"><svg class="i" aria-hidden="true" focusable="false"><use href="#i-steth"/></svg></div><h3>Kesehatan &amp; Deteksi Dini</h3><p>Pemeriksaan Kesehatan dan Deteksi Dini (DDTK).</p></div>
+  </div>
+
+
+                        <!--BAGIAN AGENDA RUTIN SEKOLAH-->
+  <h2 id="agenda" class="h gap">Agenda Rutin</h2>
+  <ul class="list cols"><li>Mengaji dan Hafalan</li><li>Pentas seni dan pameran karya</li><li>Projek Standar Kecakapan Ubudiah dan Akhlakul Karimah (SKUA)</li><li>Outing Class sesuai tema/topik</li><li>Pemeriksaan Kesehatan dan Deteksi Dini (DDTK)</li></ul>
+  <h2 id="prestasi" class="h gap">Beberapa Prestasi Tahun 2025–2026</h2>
+  <ul class="list cols"><li>Juara Inovasi Pembelajaran Guru</li><li>Juara 2 Lomba Kebersihan dan Kerapian Madrasah</li><li>Juara Harapan 1 Media Sosial Madrasah</li><li>Juara 1 Lomba Mewarnai Tingkat Kabupaten</li><li>Juara 2 Pacitan Marching Competition 4</li><li>Juara 1 Lomba Fashion Show Kategori TK</li><li>Juara 1 Lomba Carnival Kategori Umum</li><li>Juara 1 Lomba Tahfidz Online</li></ul>
+</div></section>
+                            <!--tabel jadwal-->
+<section id="akademik" class="sec alt"><div class="wrap">
+  <h2 class="h">Informasi Akademik</h2>
+  <p>Edit tabel ini langsung di <code>index.html</code> untuk memperbarui jadwal.</p>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Waktu</th><th>Kegiatan</th><th>Keterangan</th></tr></thead>
+    <tbody>
+      <tr><td>[00.00–00.00]</td><td>Kedatangan &amp; pembiasaan</td><td>[Placeholder]</td></tr>
+      <tr><td>[00.00–00.00]</td><td>Kegiatan pembelajaran</td><td>[Placeholder]</td></tr>
+      <tr><td>[00.00–00.00]</td><td>Istirahat &amp; makan bersama</td><td>[Placeholder]</td></tr>
+      <tr><td>[00.00–00.00]</td><td>Penutup, doa, pulang</td><td>[Placeholder]</td></tr>
+    </tbody></table></div>
+</div></section>
+
+
+
+                        <!--BAGIAN TENTANG PENDAFTARAN-->
+<section id="ppdb" class="sec"><div class="wrap">
+  <h2 class="h">SPMB / PPDB 2027/2028</h2>
+  <div class="two top">
+    <div>
+      <div class="card blue"><h3>Jadwal Pendaftaran</h3><ul><li>Januari – Mei 2026</li><li>Juni – Juli 2026</li></ul></div>
+      <div class="card mint"><h3>Persyaratan Pendaftaran Reguler</h3><ul><li><b>KeLA:</b> minimal usia 4 tahun per Juli 2025</li><li><b>KeLB:</b> minimal usia 5 tahun per Juli 2025</li></ul></div>
+      <div class="card pink"><h3>Kelas Adaptasi (Baru)</h3><ul><li>Minimal usia 3,5 tahun sebelum periode reguler</li></ul></div>
+      <div class="card yellow"><h3>Daftar Ulang</h3><ol><li>Mengisi formulir pendaftaran offline</li><li>Menyerahkan fotokopi: Akta kelahiran (2 lembar), KK (2 lembar), Buku Pink Posyandu (1 lembar)</li></ol></div>
+      <div class="card blue"><h3>Alur Pendaftaran</h3><ol><li>Isi formulir / klik link pendaftaran</li><li>Hubungi panitia untuk konfirmasi</li><li>Daftar ulang dengan membawa berkas</li></ol><h3>Biaya</h3><p class="ph">[Placeholder] Informasi biaya belum tersedia. Hubungi panitia.</p></div>
+    </div>
+
+
+                        <!--TENTANG PEMBERITAHUAN PENDAFTARAN-->
+    <form id="form" class="card form" novalidate>
+      <h3>Formulir Pendaftaran Awal</h3>
+      <label>Nama lengkap anak<input type="text" id="nama" placeholder="Nama anak"><em></em></label>
+      <label>Tanggal lahir anak<input type="date" id="lahir"><em></em></label>
+      <label>Program<select id="program-pilih"><option value="">Pilih program</option><option>Kelas Adaptasi</option><option>KeLA (Reguler)</option><option>KeLB (Reguler)</option></select><em></em></label>
+      <label>Nama orang tua/wali<input type="text" id="ortu" placeholder="Nama orang tua"><em></em></label>
+      <label>No. WhatsApp<input type="tel" id="hp" placeholder="08xxxxxxxxxx"><em></em></label>
+      <button class="btn btn-gold" type="submit">Kirim via WhatsApp</button>
+      <a class="btn btn-navy" href="https://clik.now/SPMBBAAPCT2627" target="_blank" rel="noopener">Buka Link Pendaftaran Resmi</a>
+      <p id="ok" class="ok" hidden></p>
+    </form>
+  </div>
+</div></section>
+
+
+                        <!--FOTO FOTO TENTANG PRESTASI SEKOLAH-->
+
+<section id="galeri" class="sec alt"><div class="wrap">
+  <h2 class="h">Galeri Kegiatan</h2>
+  <p>Klik foto untuk memperbesar.</p>
+  <!-- Foto otomatis tampil jika file images/galeri-1.jpg ... galeri-6.jpg tersedia -->
+  <div class="gallery">
+    <button type="button" class="g g1" aria-label="Perbesar foto: Kegiatan belajar"><img src="images/galeri-1.jpg" alt="Kegiatan belajar" loading="lazy" onload="this.parentElement.classList.add('has-photo')" onerror="this.remove()"><span class="g-ico"><svg class="i" aria-hidden="true" focusable="false"><use href="#i-grad"/></svg></span><span class="g-cap">Kegiatan belajar</span></button>
+    <button type="button" class="g g2" aria-label="Perbesar foto: Kreasi seni"><img src="images/galeri-2.jpg" alt="Kreasi seni" loading="lazy" onload="this.parentElement.classList.add('has-photo')" onerror="this.remove()"><span class="g-ico"><svg class="i" aria-hidden="true" focusable="false"><use href="#i-palette"/></svg></span><span class="g-cap">Kreasi seni</span></button>
+    <button type="button" class="g g3" aria-label="Perbesar foto: Mengaji dan hafalan"><img src="images/galeri-3.jpg" alt="Mengaji dan hafalan" loading="lazy" onload="this.parentElement.classList.add('has-photo')" onerror="this.remove()"><span class="g-ico"><svg class="i" aria-hidden="true" focusable="false"><use href="#i-book"/></svg></span><span class="g-cap">Mengaji &amp; hafalan</span></button>
+    <button type="button" class="g g4" aria-label="Perbesar foto: Pentas seni"><img src="images/galeri-4.jpg" alt="Pentas seni" loading="lazy" onload="this.parentElement.classList.add('has-photo')" onerror="this.remove()"><span class="g-ico"><svg class="i" aria-hidden="true" focusable="false"><use href="#i-mic"/></svg></span><span class="g-cap">Pentas seni</span></button>
+    <button type="button" class="g g5" aria-label="Perbesar foto: Outing class"><img src="images/galeri-5.jpg" alt="Outing class" loading="lazy" onload="this.parentElement.classList.add('has-photo')" onerror="this.remove()"><span class="g-ico"><svg class="i" aria-hidden="true" focusable="false"><use href="#i-bus"/></svg></span><span class="g-cap">Outing class</span></button>
+    <button type="button" class="g g6" aria-label="Perbesar foto: Lomba dan prestasi"><img src="images/galeri-6.jpg" alt="Lomba dan prestasi" loading="lazy" onload="this.parentElement.classList.add('has-photo')" onerror="this.remove()"><span class="g-ico"><svg class="i" aria-hidden="true" focusable="false"><use href="#i-trophy"/></svg></span><span class="g-cap">Lomba &amp; prestasi</span></button>
+  </div>
+
+
+
+                <!--SARAN DARI ORANG TUA-->
+  <h2 class="h gap">Testimoni Orang Tua</h2>
+  <div class="grid3">
+    <blockquote class="card mint"><p>"[Contoh] Anak saya senang berangkat sekolah."</p><cite>— [Nama Orang Tua 1]</cite></blockquote>
+    <blockquote class="card pink"><p>"[Contoh] Guru-gurunya sabar dan perhatian."</p><cite>— [Nama Orang Tua 2]</cite></blockquote>
+    <blockquote class="card yellow"><p>"[Contoh] Anak jadi rajin berdoa dan mandiri."</p><cite>— [Nama Orang Tua 3]</cite></blockquote>
+  </div>
+</div></section>
+</main>
+
+<!--BAGIAN LOKASI / ALAMAT-->
+<section id="lokasi" class="sec alt">
+  <div class="wrap">
+    <div class="wrap two top loc-frame">
+      <div class="map"><iframe title="Peta lokasi" loading="lazy" src="https://www.google.com/maps?q=Jl.+H.+Samanhudi+No.5+Pacitan&output=embed"></iframe></div>
+      <div class="loc-box">
+        <h2 class="h">Lokasi Kami</h2>
+        <p><b>Gedung 1:</b> Jl. H. Samanhudi No.05, Pacitan.<br><b>Gedung 2:</b> Jl. K.H. Dimyati No.19, Pacitan.</p>
+        <p class="ph">[Placeholder] Deskripsi singkat lingkungan sekolah.</p>
+        <a class="btn btn-navy" href="https://clik.now/SPMBBAAPCT2627" target="_blank" rel="noopener">Link Pendaftaran</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+                <!--INFO TENTANGG SEKOLAH-->
+<footer id="kontak" class="footer">
+  <div class="wrap fgrid">
+    <div><h3><svg class="i" aria-hidden="true" focusable="false"><use href="#i-school"/></svg>TK Bustanul Athfal 'Aisyiyah Pacitan</h3><p>Mewujudkan generasi sehat, mandiri, cerdas, kreatif, dan berakhlakul karimah.</p></div>
+    <div><h3><svg class="i" aria-hidden="true" focusable="false"><use href="#i-pin"/></svg>Alamat</h3><p>Gedung 1: Jl. H. Samanhudi No.05, Pacitan<br>Gedung 2: Jl. K.H. Dimyati No.19, Pacitan</p></div>
+    <div><h3><svg class="i" aria-hidden="true" focusable="false"><use href="#i-phone"/></svg>Kontak</h3><p>Bu Endah: <a href="https://wa.me/6285168603496" target="_blank" rel="noopener">0851-6860-3496</a><br>Bu Reni: <a href="https://wa.me/6285648409001" target="_blank" rel="noopener">0856-4840-9001</a><br>Surel: <span class="ph">[email sekolah]</span><br>IG: @bustanul_athfal_aisyiyah<br>FB: Bustanul Pacitan</p></div>
+    <div><h3><svg class="i" aria-hidden="true" focusable="false"><use href="#i-compass"/></svg>Navigasi</h3><p><a href="#home">Home</a> · <a href="#profil">Profil</a> · <a href="#program">Program</a> · <a href="#ppdb">PPDB</a> · <a href="#galeri">Galeri</a></p></div>
+  </div>
+  <p class="copy">© <span id="year"></span> TK Bustanul Athfal 'Aisyiyah Pacitan. Hak cipta dilindungi.</p>
+</footer>
+
+<div class="lightbox" id="lightbox" hidden><button id="close" aria-label="Tutup"><svg class="i" aria-hidden="true" focusable="false"><use href="#i-x"/></svg></button><div id="lb"></div></div>
+<script src="script.js"></script>
+</body>
+</html>
